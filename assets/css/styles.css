@@ -25,7 +25,7 @@ body {
     padding: 0 20px;
     border-radius: 99px;
     min-width: 205px;
-    border: 1px solid #10375c;
+    border: 1px solid #2e80ce;
     font-weight: 400;
     font-style: 1.6rem;
     text-align: center;
@@ -384,4 +384,44 @@ a {
 .work-item__more:hover {
     color: #2e80ce;
     font-weight: 400;
+}
+
+/* Feature */
+.feature {
+    margin-top: 85px;
+    padding: 85px 0;
+}
+
+.feature__inner {
+    display: flex;
+    column-gap: 130px;
+    align-items: center;
+}
+
+.feature__media {
+    width: 48%;
+}
+
+.feature__images {
+    position: relative;
+    padding: 0 58px 121px 0;
+}
+
+.feature__img {
+    width: 512px;
+    height: 370px;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.feature__img:last-child {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 332px;
+    height: 370px;
+}
+
+.feature__cta {
+    margin-top: 38px;
 }
